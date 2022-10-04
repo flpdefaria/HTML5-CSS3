@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+
+    .class Pode ser add em mais de 1 elemento
+    #id Apenas em 1 elemento
+
+    #Class. Eu consigo add mais de uma class em uma class
+    .Id sobrepoe a class
+*/
+body {
+    background-color: rgb(255, 237, 209);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(57, 29, 0);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(184, 126, 17);
+    color: rgb(241, 204, 136);;
+}
+
+h2 {
+    color: brown;
+}
+
+.basico {
+    color: aqua;
+}
+
+.intermediario {
+    color: blueviolet;
+}
+
+.avancado {
+    color: black;
+}

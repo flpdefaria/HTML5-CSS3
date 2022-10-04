@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Parágrafos</title>
+</head>
+<body>
+    <h1>Título h1</h1>
+    <h2>Título h2</h2>
+    <h3>Título h3</h3>
+    <h4>Título h4</h4>
+    <h5>Título h5</h5>
+    <h6>Título h6</h6>
+
+    Add as Tags &lt;/&gt;
+    <p>Você pode escrever um parágrafo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;</p>
+    <p>Se precisar quebrar o texto e algum lugar específico <br> como esse, você pode usar a tag &lt;br&gt;.
+    </p>
+
+    <p>Símbolos:
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &delta;
+        &Delta;
+        &uarr;
+    </p>
+
+    <p>Vamos adicionar alguns emoji: <!--emojipedia.org-->
+        &#x1F596;
+        &#x1F913;
+    </p>
+
+    <p><address>Tag para Endereço &lt;address&gt;</address>
+    </p>
+    
+    <p>Principais Formatações <br>
+        <b>Negrito</b> ou <strong>Negrito</strong> &lt;strong&gt; <br>
+        <i>Itálico</i> ou <em>Itálico</em> &lt;em&gt; <br>
+        <mark>Marca Texto &lt;mark&gt;</mark> <br>
+        <small>Texto Pequeno &lt;small&gt;</small> <br>
+        <del>Texto Excluido &lt;del&gt;</del> <br>
+        <ins>Texto Inserido &lt;ins&gt;</ins> <br>
+        <u>Sublinhado &lt;u&gt;</u> <br>
+        x<sup>20</sup> &lt;sup&gt; <br>
+        H<sub>2</sub>O &lt;sub&gt;
+    </p>
+    <p>Outras Formatações <br>
+        <code>Código Fonte &lt;code&gt;</code> <br>
+        
+    <pre>
+    Exemplo:&lt;pre&gt; &lt;code&gt;
+    <code>
+    let num = document.getElement('teste')
+
+    if (num % 2 == 0) {
+        window.alert('Teste') 
+    } else {
+        window.alert('Teste')
+    }
+    </code>
+    </pre>
+    </p>
+
+    <p>
+        <q>Citações Simples &lt;q&gt;</q>
+        <blockquote cite="add o link">Citações Completas &lt;blockquote&gt;</blockquote> 
+       <abbr title="Abreviações">Abreviações</abbr> &lt;abbr&gt; <br>
+       <abbr title="HyperText Markup Language">HTML</abbr> <br>
+       Inverso (dir = rtl ou ltr) <bdo dir="rtl" >Inverso &lt;bdo&gt;</bdo>
+    </p>
+
+    <p>Listas <br>
+        Lista Ordenada &lt;ol&gt; &lt;li&gt;
+        <ol>
+            <li>Acordar</li>
+            <li>Ligar para João</li>
+            <li>Tomar café</li>
+            <li>Escovar os dentes</li>
+        </ol> 
+        ou
+        <ol>
+            <li>Acordar
+            <li>Ligar para João
+            <li>Tomar café
+            <li>Escovar os dentes
+        </ol>
+        ou
+        <ol type="1" start="4"> <!-- Types: 1 A a I i -->
+                <li>Acordar
+                <li>Ligar para João
+                <li>Tomar café
+                <li>Escovar os dentes
+        </ol>
+        ou
+        <ol type="a">
+            <li>Acordar
+                <li>Ligar para João
+                <li>Tomar café
+                <li>Escovar os dentes
+        </ol>
+        Listas Não Ordenadas
+        <ul type="square"> <!-- Types: disc circle square -->
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+        </ul>
+    </p>
+    <p>
+        Juntando Listas <br>
+         <!-- Base para criar os Menus -->
+        Linguagens de Programação:
+        <ol>
+            <li>Antigas</li>
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+            <li>Novas</li>
+            <ol type="a">
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+            </ol>
+        </ol>
+        ou
+        <ol>
+            <li>SNES</li>
+            <ul type="square">
+                <li>Mario Bros</li>
+                <ul type="circle">
+                    <li>Mario Bros 3</li>
+                    <li>Mario: Lost Levels</li>
+                </ul>
+                <li>Ninja Gaiden</li>
+            </ul>
+            <li>Playstation</li>
+            <ul type="square">
+                <li>Final Fantasy</li>
+                <li>Castlevania</li>
+            </ul>
+        </ol>
+        <dl>
+            <dt>Termo</dt>
+            <dd>Linguagem de marcação para criação de design de um site</dd>
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação para criação de design de um site</dd>
+            <dt>JavaScript</dt>
+            <dd>Linguagem de marcação para criação de design de um site<</dd>
+        </dl>
+    </p>
+    <p>Links <br>
+        Links Externos &lt;a href=""&gt; <a href="https://www.google.com.br/" target="_blank" rel="external">Google</a>
+        <!-- 
+            Rel informa ao navegador que esse   é um link externo do site
+        
+            Os tipos de Targets: 
+            _blank	Abre o documento vinculado em uma nova janela ou guia
+
+            _self	Abre o documento vinculado no mesmo quadro em que foi clicado (este é o padrão)
+
+            _parent	Abre o documento vinculado no quadro pai
+
+            _top	Abre o documento vinculado no corpo inteiro da janela
+            
+            framename	Abre o documento vinculado no iframe nomeado
+        --> 
+        <br>
+        Link Interno: Não precisa informar o link inteiro, apenas o a pasta onde apontar para o caminho do arquivo.
+        <a href="pagina02.html" rel="next">Página 2</a> <br>
+        Link para fazer Downloads <br>
+        <a href="download/01 - História da Internet.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a>
+    </p>
+    <p>
+        Imagem Dinâmicas <br>
+        Mobile:  300x300px <br>
+        Tablet:  700x700px <br>
+        Desktop: 1000x1000px <br>
+    </p>
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagem/mobile.png">
+            <source media="(max-width: 1050px)" srcset="imagem/tablet.png">
+            <img src="imagem/desktop.png" alt="Imagem Flexível">
+        </picture>
+    </p>
+    <p>
+        Reproduzindo Áudio
+       <!-- 
+        audio src="midia/SummerSolstice.mp3" controls autoplay></audio>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="midia/SummerSolstice.mp3" type="audio/mpeg">
+            <source src="midia/SummerSolstice.mp3" type="audio/ogg">
+            <source src="midia/SummerSolstice.mp3" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/SummerSolstice.mp3">Clique aqui para baixaro arquivo MP3</a></p>
+        </audio>
+        -->
+            <br>
+            &lt;audio&gt; src="midia/SummerSolstice.mp3" controls autoplay>&lt;/audio&gt; <br> ou <br>
+            &lt;audio&gt; preload="metadata" autoplay controls loop> <br>
+            &lt;source&gt; src="midia/SummerSolstice.mp3" type="audio/mpeg"> <br>
+            &lt;source&gt; src="midia/SummerSolstice.mp3" type="audio/ogg"> <br>
+            &lt;source&gt; src="midia/SummerSolstice.mp3" type="audio/wav"> <br>
+                <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/SummerSolstice.mp3">Clique aqui para baixaro arquivo MP3</a></p>
+            &lt;/audio&gt;
+    </p>
+    <p>
+        Mídia <br>
+        <video width="200" controls autoplay loop>
+            <source src="midia/granulados.mp4" type="video/mp4">
+            <source src="midia/" type="video/m4v">
+            <source src="midia/" type="video/webm">
+            <source src="midia/" type="video/ogg">
+            <p>Seu navegador não tem compatibilidade com reproduzir esse vídeo.</p>
+        </video>
+        <p>Inserindo Vídeo do Youtube</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oCCCLgfDOVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        Vímeo é uma plataforma onde consigo disponibilizar os meus vídeos privados. Para se caso quiser dar algum curso.
+    </p>
+</body>
+</html>

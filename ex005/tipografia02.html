@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tipografia</title>
+    <style>
+    /* 
+    Link do Google Fonts para pegar novas fontes e aplicar nos projetos: 
+    https://fonts.google.com/ 
+    */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+        
+    @font-face {
+        font-family: 'Teste'; /* Cria um nome para a sua fonte que add ao arquivo e utiliza esse nome dentro da font-family. Ex. no h2 e p */
+        src: url('fontes/Wachinanga-font.otf') format('opentype'), url('fontes/Wachinanga-font.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        /*
+            Tipos de format()
+            - opentype (otf) 
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+        */
+    }
+
+    h1{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h2 {
+        font-family: 'Teste';
+    }
+    p {
+        font-family: 'Teste';
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis odio vero est illum quia fuga laudantium, excepturi quis suscipit, explicabo hic animi non molestiae. In maxime quidem quis placeat voluptatem.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore iure quaerat facere corrupti rerum recusandae ut laborum magnam molestias nobis! A debitis id ad, tempore nihil vero similique modi quis?</p>
+</body>
+</html>
