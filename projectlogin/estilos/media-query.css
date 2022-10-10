@@ -10,8 +10,14 @@ Typical Device Breakpoints
 · Desktop: 992px até 1200px
 · Grandes Telas: acima de 1200px
 
+Paleta de Cores
+   Vinho   #532524 
+   Dourado #c4933f
+   Bege    #eo0d5bb
+
 */
 
+/* TABLET */
 @media  screen and (min-width: 768px) and (max-width: 992px){
     body {
         background-image: linear-gradient(to top, white, #E0d5bb);
@@ -29,7 +35,7 @@ Typical Device Breakpoints
         width: 70%;
     }
 }
-
+/* TELAS MAIORES */
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, white, #E0d5bb);
@@ -38,14 +44,20 @@ Typical Device Breakpoints
         width: 950px;
     }
 
-    section#login > div#image {
-        float: left;
+    section#login > div#imagem {
+        float: right;
         width: 50%;
         height: 100%;
     }
     
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
